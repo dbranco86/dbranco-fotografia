@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display&display=swap" rel="stylesheet">
+        <!--Links para cargar libreria AOS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
         <!--Link para vincular css-->
         <link rel="stylesheet" href="../css/estilos.css">
         <title>DBranco Fotografía</title>
@@ -32,9 +34,9 @@
         <main>
             <section id="mainSecundario">
                 <div class="mainPrimario__titulo">
-                    <h1>Preguntas frecuentes:</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="1500">Preguntas frecuentes:</h1>
                 </div>
-                <div class="mainPrimario__preguntas">    
+                <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__preguntas">    
                     <h3>¿Qué esperar?</h3>
                     <p>
                         Pasarlo increíble en un ambiente distendido y entretenido, y obtener fotografías de retrato y grupales que luego editaré a mi estilo, para entregarte un recuerdo precioso e inolvidable.
@@ -124,5 +126,9 @@
                 </div>
             </form>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
