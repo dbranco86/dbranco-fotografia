@@ -1,0 +1,454 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+/************************************************/
+/*GRID para el BODY*/
+/************************************************/
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+/*****Fin GRID*****/ 
+
+/************************************************/
+/*Estilo para el HEADER*/
+/************************************************/
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
+    border-radius: 10px 100px 10px 100px  ;
+    border: solid 1px rgba(0, 0, 0, 0.178);
+    margin: 1%;
+    grid-area: header;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 170px;
+    padding: 1%;
+    margin: auto;
+}
+.logo__imagen{
+    width:100%;
+    opacity: 0.7;
+}
+.nav-header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.nav-header__menu{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 1%;
+}
+.nav-header__menu li{
+    padding: 1%;
+    margin: auto;
+    display: inline-block;
+}
+.nav-header__menu a{
+    color: #343232;
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:small;
+    font-weight: bold;
+    letter-spacing:1.5px;
+    margin: auto; 
+}
+.nav-header__menu a:hover{
+    color: #000000;
+    font-weight:bolder;
+    background-image: linear-gradient(#f0f0f0d5,#f0f0f0d5,#34323217,#f0f0f0d5,#f0f0f0d5);
+    border-radius: 10px;
+}
+
+/*****Fin estilo HEADER*****/ 
+
+/************************************************/
+/*Estilo para el MAIN*/
+/************************************************/
+
+/***INDEX***/
+#mainPrimario h1{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight:lighter;
+    text-align: center;
+    padding: 30px;
+}
+/***Fin de INDEX***/
+
+/***Quien-soy***/
+.mainSecundario__quien-soy{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+.mainSecundario__quien-soy h1{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-weight:lighter;
+    font-size: 40px;
+    text-align:left;
+    padding: 1%;
+}
+.mainSecundario__quien-soy p{
+    width:auto;
+    height: auto;
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+    text-align:left;
+    padding: 15px 0px 0px 30px;
+}
+.mainSecundario__imagen-perfil{
+    width: 25%;
+    height: auto;
+    padding-top: 5%;
+}
+.mainSecundario__imagen-perfil img{
+    width: 100%;
+}
+/***Fin de Quien-soy***/
+
+/***Sesiones***/
+.mainPrimario__imagen{
+    width: 100%;
+    padding-bottom: 10px;
+}
+/***Fin de Sesiones***/
+
+/***Sesion-embarazo***/
+.mainPrimario__imagen-sesion{
+    width: 45%;
+    padding-top: 1%;
+}
+.mainPrimario__descripcion{
+    width: 35%;
+    height: auto;
+    padding: 1%;
+}
+.mainPrimario__descripcion p{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-weight:lighter;
+    font-size: 20px;
+    text-align:center;
+    padding: 1%;
+}
+/***Fin de Sesion-embarazo***/
+
+/***Q&A***/
+.mainPrimario__titulo{
+    width:auto;
+    padding: 45px 0px 25px 5px;
+}
+.mainPrimario__titulo h1{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-weight:lighter;
+    font-size: 40px;
+}
+.mainPrimario__preguntas{
+    width:auto;
+    height: auto;
+    padding: 5%;
+}
+.mainPrimario__preguntas p{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-align:left;
+    padding-left: 1%;
+}
+.mainPrimario__preguntas h3{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    text-align:left;
+    padding-bottom: 0.5%;
+}
+/***Fin de Q&A***/
+
+/***Contacto***/
+.mainSecundario__imagen-contacto{
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+}
+.mainSecundario__imagen-contacto img{
+    width: 75%;
+    padding: 10%;
+}
+.mainSecundario__titulo-formulario{
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    float: left;
+}
+.mainSecundario__titulo{
+    width: 450px;
+    height: auto;
+    margin:auto;
+}
+.mainSecundario__titulo h1{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-weight:lighter;
+    font-size: 25px;
+    text-align:left;
+    padding: 10px 10px 10px 0px;
+}
+.mainSecundario__titulo p{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    text-align:left;
+    padding-left: 10px;
+}
+.mainSecundario__formulario{
+    width: 450px;
+    height: auto;
+    padding: 10px;
+}
+.mainSecundario__formulario input{
+    font-family: 'Playfair Display', serif;
+    width: 280px;
+    padding: 10px 10px;    
+}
+.mainSecundario__formulario p{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    text-align:left;
+    padding: 3px;
+}
+/***Fin de Contacto***/
+
+/*****Fin estilo MAIN*****/
+
+/************************************************/
+/*Estilo para el FOOTER*/
+/************************************************/
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
+    width: auto;
+    height: 100%;
+    grid-area: footer;
+}
+.informacion{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding: 0.5%;
+}
+.informacion__redes-sociales{
+    padding: 1%;
+}
+.redes-sociales__logo{
+    width: 100%;
+    opacity: 0.7;
+}
+.informacion__redes-sociales li{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.contacto{
+    padding: 2%;
+}
+.contacto a{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size:large;
+    font-weight:bold;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-decoration: none;
+}
+.contacto a:hover{
+    color: #000000;
+    font-weight:bolder;
+}
+.datos{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size:medium;
+    text-align: center;
+    padding: 1.5%;
+}
+.formulario{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-color: gray;
+    padding: 20px;
+}
+.formulario__input{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.formulario input{
+    font-family: 'Playfair Display', serif;
+    width: auto;
+    padding: 10px 5px;
+}
+/*****Fin estilo FOOTER*****/
+
+/************************************************/
+/*Estilos GENERALES*/
+/************************************************/
+
+/***Estilos main***/
+#mainPrimario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(#f0f0f0, white);
+    grid-area: main;
+}
+#mainSecundario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    background-image: linear-gradient(#f0f0f0, white);
+    grid-area: main;
+}
+
+/***Estilo boton***/
+.boton{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    width: auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: transparent;
+}
+.boton:hover{
+    color: #00000060;
+    font-weight:bolder;
+}
+.formulario__boton{
+    display: flex;
+}
+/***Estilo textarea***/
+.mensaje{
+    font-family: 'Playfair Display', serif;
+    padding: 10px 10px;
+    width: 280px;
+}
+/*****Fin estilos GENERALES*****/
+
+/************************************************/
+/*Animaciones*/
+/************************************************/
+
+
+
+/*****Fin Animaciones*****/
+
+
+/************************************************/
+/*Media Queries*/
+/************************************************/
+
+@media (max-width:576px){
+    
+/***Estilo Header***/
+.nav-header{
+    display:none;
+}
+
+/***Estilo Main***/
+#mainSecundario{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+/***Quien-soy***/
+.mainSecundario__quien-soy{
+    width:auto;
+}
+
+/***Sesion-embarazo***/
+.mainPrimario__descripcion{
+    width:auto;
+}
+
+/***Contacto***/
+.mainSecundario__imagen-contacto{
+    width:auto;
+}
+.mainSecundario__formulario{
+    width: auto;
+}
+.mainSecundario__titulo-formulario{
+    width: auto;
+}
+.mainSecundario__titulo{
+    width: auto;
+}
+
+/***Estilo Footer***/
+.formulario{
+    flex-direction: column;
+}
+.formulario__input{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.formulario__boton{
+    padding-top: 4%;
+}
+
+}    
