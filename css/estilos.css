@@ -329,6 +329,7 @@ footer{
     font-family: 'Playfair Display', serif;
     width: auto;
     padding: 10px 5px;
+    margin: 2%;
 }
 /*****Fin estilo FOOTER*****/
 
@@ -383,15 +384,6 @@ footer{
     width: 280px;
 }
 /*****Fin estilos GENERALES*****/
-
-/************************************************/
-/*Animaciones*/
-/************************************************/
-
-
-
-/*****Fin Animaciones*****/
-
 
 /************************************************/
 /*Media Queries*/
