@@ -329,7 +329,6 @@ footer{
     font-family: 'Playfair Display', serif;
     width: auto;
     padding: 10px 5px;
-    margin: 2%;
 }
 /*****Fin estilo FOOTER*****/
 
@@ -438,6 +437,9 @@ footer{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+.formulario input{
+    margin: 2%;
 }
 .formulario__boton{
     padding-top: 4%;
