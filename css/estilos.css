@@ -155,7 +155,7 @@ header{
     font-weight:lighter;
     font-size: 30px;
     text-align:center;
-    padding: 2%;
+    padding: 5% 2% 2% 2%;
 }
 .sesion__imagen{
     width: 80%;
@@ -194,6 +194,7 @@ header{
     border-radius: 3px;
     background-color: #f0f0f0;
     padding: 1%;
+    margin-top: 2%;
 }
 .sesiones__boton a{
     color: #343232;
@@ -204,9 +205,9 @@ header{
 }
 /***Fin de Sesiones***/
 
-/***Sesion-embarazo***/
+/***Sesion-seleccionada***/
 .mainPrimario__imagen-sesion{
-    width: 30%;
+    width: 40%;
     padding-top: 1%;
 }
 .mainPrimario__descripcion{
