@@ -147,6 +147,7 @@ header{
     width: auto;
     height: auto;
     background-image: linear-gradient(#f0f0f0, white);
+    padding: 1%;
 }
 #sesiones h1{
     color: #343232;
@@ -172,20 +173,40 @@ header{
     padding: 1%;
 }
 .sesion__carrusel{
-    width: 30%;
-    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: auto;
 }
-.sesion__carrusel img{
+.sesion__carrusel-imagen{
+    width: 15%;
+    padding: 1%;
+}
+.sesion__carrusel-imagen img{
     width: 100%;
 }
 .sesiones__boton{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: #f0f0f0;
     padding: 1%;
+}
+.sesiones__boton a{
+    color: #343232;
+    font-family: 'Playfair Display', serif;
+    font-size:large;
+    text-align: center;
+    text-decoration: none;
 }
 /***Fin de Sesiones***/
 
 /***Sesion-embarazo***/
 .mainPrimario__imagen-sesion{
-    width: 45%;
+    width: 30%;
     padding-top: 1%;
 }
 .mainPrimario__descripcion{
