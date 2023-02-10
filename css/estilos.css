@@ -473,7 +473,7 @@ footer{
     width:auto;
 }
 
-/***Sesion-embarazo***/
+/***Sesion***/
 .mainPrimario__descripcion{
     width:auto;
 }
@@ -507,6 +507,11 @@ footer{
 }
 .formulario__boton{
     padding-top: 4%;
+}
+/***Estilos generales***/
+.boton{
+    border-style: solid 1px;
+
 }
 
 }    
