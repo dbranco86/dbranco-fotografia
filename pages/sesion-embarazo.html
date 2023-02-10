@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display&display=swap" rel="stylesheet">
+        <!--Links para cargar libreria AOS-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
         <!--Link para vincular css-->
         <link rel="stylesheet" href="../css/estilos.css">
         <title>DBranco Fotografía</title>
@@ -31,10 +33,10 @@
         <!--INICIO MAIN-->
         <main>
             <section id="mainPrimario">
-                <div class="mainPrimario__imagen-sesion">
+                <div data-aos="fade-right" data-aos-duration="1500" class="mainPrimario__imagen-sesion">
                     <img class="mainPrimario__imagen" src="../images/IMG_9314.jpg" alt="imagen-embarazo">
                 </div>
-                <div class="mainPrimario__descripcion">
+                <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__descripcion">
                     <p>
                         El embarazo es aquella etapa donde todas las mujeres lucen radiantes y llenas de luz, quiero ayudarte a retratar este momento tan especial que merece ser congelado en el tiempo.
                     </p>
@@ -68,4 +70,8 @@
                 </div>
             </form>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </html>
