@@ -77,9 +77,7 @@ header{
     color: #000000;
     font-weight:bolder;
     background-image: linear-gradient(#f0f0f0d5,#f0f0f0d5,#34323217,#f0f0f0d5,#f0f0f0d5);
-    border-radius: 10px;
 }
-
 /*****Fin estilo HEADER*****/ 
 
 /************************************************/
@@ -430,12 +428,15 @@ footer{
     width: auto;
     padding: 10px 30px;
     cursor: pointer;
+    border: 2px solid;
     border-radius: 3px;
     background-color: transparent;
 }
 .boton:hover{
-    color: #00000060;
-    font-weight:bolder;
+    color: #000000b6;
+    background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
+    border-color: #000000;
+    font-weight:bold;
 }
 .formulario__boton{
     display: flex;
@@ -449,14 +450,33 @@ footer{
 /*****Fin estilos GENERALES*****/
 
 /************************************************/
+/*Animaciones para botones*/
+/************************************************/
+
+@keyframes zoom{
+    0%{
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+    50%{
+        transform: scale(1);
+        box-shadow: 0 0 0 3px rgba(36, 35, 35, 0.705);
+    }
+    100%{
+        transform: scale(0.9);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    }
+}
+
+/************************************************/
 /*Media Queries*/
 /************************************************/
 
 @media (max-width:576px){
     
 /***Estilo Header***/
-.nav-header{
-    display:none;
+.nav-header__menu{
+    width: auto;
 }
 
 /***Estilo Main***/
@@ -507,11 +527,6 @@ footer{
 }
 .formulario__boton{
     padding-top: 4%;
-}
-/***Estilos generales***/
-.boton{
-    border-style: solid 1px;
-
 }
 
 }    
