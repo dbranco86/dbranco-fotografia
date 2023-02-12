@@ -26,10 +26,10 @@ header{
     flex-wrap: nowrap;
     align-items: center;
     background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
-    border-radius: 10px 100px 10px 100px  ;
-    border: solid 1px rgba(0, 0, 0, 0.178);
+    border-radius: 10px 100px 10px 100px;
+    box-shadow: 10px 10px 10px 0px rgba(95, 92, 92, 0.733);
     margin: 1%;
-    grid-area: header;
+    grid-area: header;;
 }
 .logo{
     display: flex;
@@ -131,9 +131,7 @@ header{
 .mainSecundario__imagen-perfil img{
     width: 100%;
     border-radius: 10px 70px 10px 70px;
-    box-shadow: 10px 10px 10px rgba(95, 92, 92, 0.733);
 }
-
 /***Fin de Quien-soy***/
 
 /***Sesiones***/
@@ -218,7 +216,6 @@ header{
 }
 .mainPrimario__imagen-sesion img{
     border-radius: 10px 70px 10px 70px;
-    box-shadow: 10px 10px 10px rgba(95, 92, 92, 0.733);
 }
 .mainPrimario__descripcion{
     width: 35%;
@@ -279,7 +276,6 @@ header{
 .mainSecundario__imagen-contacto img{
     width: 75%;
     border-radius: 10px 70px 10px 70px;
-    box-shadow: 10px 10px 10px rgba(95, 92, 92, 0.733);
 }
 .mainSecundario__titulo-formulario{
     width: 450px;
