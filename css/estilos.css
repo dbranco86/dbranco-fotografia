@@ -130,7 +130,7 @@ header{
 }
 .mainSecundario__imagen-perfil img{
     width: 100%;
-    border-radius: 10px 100px 10px 100px;
+    border-radius: 10px 70px 10px 70px;
     box-shadow: 10px 10px 10px rgba(95, 92, 92, 0.733);
 }
 
@@ -214,10 +214,10 @@ header{
 }
 .mainPrimario__imagen-sesion{
     width: 40%;
-    padding-top: 1%;
+    padding-top: 4%;
 }
 .mainPrimario__imagen-sesion img{
-    border-radius: 10px 100px 10px 100px;
+    border-radius: 10px 70px 10px 70px;
     box-shadow: 10px 10px 10px rgba(95, 92, 92, 0.733);
 }
 .mainPrimario__descripcion{
@@ -278,7 +278,7 @@ header{
 }
 .mainSecundario__imagen-contacto img{
     width: 75%;
-    border-radius: 10px 100px 10px 100px;
+    border-radius: 10px 70px 10px 70px;
     box-shadow: 10px 10px 10px rgba(95, 92, 92, 0.733);
 }
 .mainSecundario__titulo-formulario{
