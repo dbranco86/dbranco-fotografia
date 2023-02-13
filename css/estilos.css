@@ -29,7 +29,7 @@ header{
     border-radius: 10px 100px 10px 100px;
     box-shadow: 10px 10px 10px 0px rgba(95, 92, 92, 0.733);
     margin: 1%;
-    grid-area: header;;
+    grid-area: header;
 }
 .logo{
     display: flex;
@@ -144,6 +144,7 @@ header{
     height: auto;
     background-image: linear-gradient(#f0f0f0, white);
     padding: 1%;
+    margin-bottom: 5%;
 }
 #sesiones h1{
     color: #343232;
@@ -159,6 +160,7 @@ header{
 }
 .sesion__imagen img{
     width: 100%;
+    border-radius: 10px 70px 10px 70px;
 }
 #sesiones p{
     color: #343232;
@@ -489,7 +491,6 @@ footer{
 .mainPrimario__descripcion{
     width:auto;
 }
-
 /***Contacto***/
 .mainSecundario__imagen-contacto{
     width:auto;
