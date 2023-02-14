@@ -352,15 +352,17 @@ footer{
 }
 .informacion__redes-sociales{
     padding: 1%;
+    margin: auto;
 }
 .redes-sociales__logo{
     width: 100%;
     opacity: 0.7;
 }
 .informacion__redes-sociales li{
-    width: 30px;
-    height: 30px;
+    /*width: 30px;
+    height: 30px;*/
     padding: 10px;
+    margin: auto;
     display: inline-block;
 }
 .contacto{
@@ -444,7 +446,6 @@ footer{
     border: 2px solid;
     border-radius: 3px;
     background-color: transparent;
-    -webkit-appearance: none;
 }
 .boton:hover{
     color: #000000b6;
