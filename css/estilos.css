@@ -444,6 +444,7 @@ footer{
     border: 2px solid;
     border-radius: 3px;
     background-color: transparent;
+    -webkit-appearance: none;
 }
 .boton:hover{
     color: #000000b6;
