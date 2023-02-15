@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display&display=swap" rel="stylesheet">
         <!--Links para cargar libreria AOS-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+        <!--Links para cargar Boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <!--Link para vincular css-->
         <link rel="stylesheet" href="../css/estilos.css">
         <title>DBranco Fotografía</title>
@@ -32,18 +34,24 @@
         </header>
         <!--INICIO MAIN--> 
         <main>
-            <section id="mainPrimario">
-                <div data-aos="fade-right" data-aos-duration="1500" class="mainPrimario__imagen-sesion">
-                    <img class="mainPrimario__imagen" src="../images/IMG_5626.jpg" alt="imagen-producto">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <section id="mainPrimario">
+                            <div data-aos="fade-right" data-aos-duration="1500" class="mainPrimario__imagen-sesion">
+                                <img class="mainPrimario__imagen" src="../images/IMG_5626.jpg" alt="imagen-producto">
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__descripcion">
+                                <p>
+                                    La fotografía de producto es la representación visual, con una cámara de fotos, de un objeto de la forma más atractiva y favorable posible, generalmente con una finalidad comercial. 
+                                    <br>
+                                    Lo que te ofrecemos es la posibilidad de dar a conocer un producto con el último fin de venderlo o comercializarlo.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__descripcion">
-                    <p>
-                        La fotografía de producto es la representación visual, con una cámara de fotos, de un objeto de la forma más atractiva y favorable posible, generalmente con una finalidad comercial. 
-                        <br>
-                        Lo que te ofrecemos es la posibilidad de dar a conocer un producto con el último fin de venderlo o comercializarlo.
-                    </p>
-                </div>
-            </section>
+            </div>
         </main>
         <!--INICIO FOOTER-->    
         <footer>
@@ -76,5 +84,6 @@
         <script>
             AOS.init();
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

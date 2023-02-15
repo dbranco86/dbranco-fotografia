@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display&display=swap" rel="stylesheet">
         <!--Links para cargar libreria AOS-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+        <!--Links para cargar Boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <!--Link para vincular css-->
         <link rel="stylesheet" href="../css/estilos.css">
         <title>DBranco Fotografía</title>
@@ -32,20 +34,26 @@
         </header>
         <!--INICIO MAIN--> 
         <main>
-            <section id="mainPrimario">
-                <div data-aos="fade-right" data-aos-duration="1500" class="mainPrimario__imagen-sesion">
-                    <img class="mainPrimario__imagen" src="../images/IMG_9407.jpg" alt="imagen-infantil">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <section id="mainPrimario">
+                            <div data-aos="fade-right" data-aos-duration="1500" class="mainPrimario__imagen-sesion">
+                                <img class="mainPrimario__imagen" src="../images/IMG_9407.jpg" alt="imagen-infantil">
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__descripcion">
+                                <p>
+                                    La fotografía tiene el poder de detener estos momentos y que lo puedas guardar y revivir siempre que quieras.
+                                    <br>
+                                    Cualquier momento es bueno para una sesión, nunca serán tan pequeños.
+                                    <br>
+                                    Estas sesiones las podemos hacer en cualquier momento del año con fotos atemporales, pero si decides hacerlo cerca del cumpleaños podemos poner un decorado de fiesta haciendo referencia a la edad.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__descripcion">
-                    <p>
-                        La fotografía tiene el poder de detener estos momentos y que lo puedas guardar y revivir siempre que quieras.
-                        <br>
-                        Cualquier momento es bueno para una sesión, nunca serán tan pequeños.
-                        <br>
-                        Estas sesiones las podemos hacer en cualquier momento del año con fotos atemporales, pero si decides hacerlo cerca del cumpleaños podemos poner un decorado de fiesta haciendo referencia a la edad.
-                    </p>
-                </div>
-            </section>
+            </div>
         </main>
         <!--INICIO FOOTER-->    
         <footer>
@@ -78,5 +86,6 @@
         <script>
             AOS.init();
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

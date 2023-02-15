@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display&display=swap" rel="stylesheet">
         <!--Links para cargar libreria AOS-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+        <!--Links para cargar Boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <!--Link para vincular css-->
         <link rel="stylesheet" href="../css/estilos.css">
         <title>DBranco Fotografía</title>
@@ -32,72 +34,78 @@
         </header>
         <!--INICIO MAIN-->
         <main>
-            <section id="mainSecundario">
-                <div class="mainPrimario__titulo">
-                    <h1 data-aos="fade-right" data-aos-duration="1500">Preguntas frecuentes:</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <section id="mainSecundario">
+                            <div class="mainPrimario__titulo">
+                                <h1 data-aos="fade-right" data-aos-duration="1500">Preguntas frecuentes:</h1>
+                            </div>
+                            <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__preguntas">    
+                                <h3>¿Qué esperar?</h3>
+                                <p>
+                                    Pasarlo increíble en un ambiente distendido y entretenido, y obtener fotografías de retrato y grupales que luego editaré a mi estilo, para entregarte un recuerdo precioso e inolvidable.
+                                </p>
+                                <br>
+                                <h3>¿Dónde será la sesión?</h3>
+                                <p>
+                                    El lugar generalmente es en el exterior para tener luz natural, ojalá al atardecer para tener una luz suave y cálida. Normalmente utilizo parques, pero podemos elegirlo juntos, incluso puede ser en tu propia casa.
+                                    En el estudio, utilizo los mejores equipos para lograr una luz que retrate a las personas de acuerdo a lo que estamos buscando.
+                                </p>
+                                <br>
+                                <h3>¿Cómo elegir la ropa?</h3>
+                                <p>
+                                    Para una sesión de familia o de pareja, funciona muy bien estéticamente, si todos están con prendas de la misma paleta de colores, o combinando 2 tonos. Esto no significa que vengan todos vestidos del mismo color o con la misma ropa, sino jugar con los colores. Es mejor colores sólidos o neutros, ya que queda más armonioso visualmente. 
+                                    Los tonos naturales, beige, gris y tonos pasteles funciona siempre! Es fácil de encontrar ropa que tengan estos colores y son colores fáciles de combinar entre ellos.
+                                    Utilizar colores sólidos es una buena opción. Debes elegir solo 2 colores y jugar entre ellos. Evita las prendas con colores chillones, fosforescentes y dibujos de cualquier tipo.
+                                    Busca telas que no se arruguen con facilidad.
+                                    Los zapatos cómodos y limpios, con color para que combinen con la ropa.
+                                </p>
+                                <br>
+                                <h3>¿Cómo reservar una sesión fotográfica?</h3>
+                                <p>
+                                    1. El precio de la sesión es el costo del tiempo dedicado por el Fotógrafo al Cliente y/o su familia, incluyendo las consultas previas a la sesión y el de la sesión fotográfica. Incluye además la preparación de la sesión, toma de fotografías, edición y entrega de fotografías digitales.
+                                    <br>
+                                    2. El depósito del50% de la suma total del precio de la sesión es requerido para asegurar al Cliente la reserva de la sesión. Este depósito asegura al Cliente el tiempo y servicios del Fotógrafo para la sesión Fotográfica y no es reembolsable, a menos que se caiga en la categoría de fuerza mayor.
+                                    <br>
+                                    3. La sesión de fotos puede ser reagendada por una vez, con al menos 24 horas de anticipación y de acuerdo a la disponibilidad del Fotógrafo para acordar la nueva fecha. En cualquier otro caso el depósito se perderá.
+                                </p>
+                                <br>
+                                <h3>¿Qué incluye la Sesión de Fotos? </h3>
+                                <p>
+                                    1. Preparación de la sesión, consejos de vestuario, de locaciones y otros.
+                                    <br>
+                                    2. Consejos de posiciones durante la sesión.
+                                    <br>
+                                    3. Las sesiones pueden ser en Estudio Fotográfico, en el hogar del/la Cliente (previo chequeo y aprobación de la fotógrafa para tener un adecuado espacio, luz, etc.) o en locaciones exteriores.
+                                    La elección del lugar y su hora se hará de acuerdo a criterios técnicos y artísticos dados por el Fotógrafo, los cambios que el/la Cliente desee introducir a estos criterios, serán de su responsabilidad.
+                                    Las sesiones se pueden agendar de lunes a domingo, dependiendo de la disponibilidad y el horario que el Fotógrafo pueda proveer y lo que el/la Cliente requiera.
+                                </p>
+                                <br>
+                                <h3>Respecto a las responsabilidades durante la sesión fotográfica:</h3>
+                                <p>
+                                    1. La Fotógrafa no será responsable por la decisión final de la elección de vestuario del/la Cliente, por la cooperación de este y los miembros de su grupo o familia durante la sesión y/o por la negativa a participar de uno o más miembros del grupo o familia del/la Cliente.
+                                    <br>
+                                    2. Será responsabilidad del/la Cliente asegurarse que su ropa, maquillaje, peinado y apariencia general están acordes a lo que el/la Cliente desea para sus fotos.
+                                    <br>
+                                    3. El criterio de la Fotógrafa acerca de las locaciones, poses y el número de imágenes a ser capturadas es aceptado de antemano por el/la Cliente al momento de hacer la reservación. Debido a la arbitrariedad del clima, de la luz y dependiendo de la disposición de los participantes en la sesión, puede que no sea posible capturar todas las imágenes pedidas.
+                                    <br>
+                                    4. El tiempo de la sesión dependerá de la cantidad de personas, la edad de los niños, la disposición de estos y de la locación. Aproximadamente será de 30 minutos para todos los packs de 10 fotos editadas y de 1 hora para packs de 20 fotos editadas.
+                                </p>
+                                <br>
+                                <h3>Procesamiento posterior de las imágenes:</h3>
+                                <p>
+                                    1. Las fotos tomadas durante la sesión serán enviadas al cliente sin ser editadas mediante un link para que las pueda escoger. Una vez sean escogidas, el Fotógrafo dispone de 10 días hábiles desde la fecha para editar y entregar las fotos.   
+                                    <br>
+                                    2. Las decisiones estéticas y de edición se harán de acuerdo a lo que el fotógrafo considere necesario para obtener el mejor resultado. El Cliente acepta que contrata al fotógrafo habida consideración a su estética y experiencia, la que puede comprobar en las diversas redes sociales que exhiben el trabajo del Fotógrafo, por lo que deja al arbitrio de esta las decisiones de edición, sin ulterior reclamo.
+                                    <br>
+                                    3. Es responsabilidad del/la Cliente descargar y resguardar los archivos digitales que reciba, tanto los resultantes de la sesión como los editados posteriormente. El Estudio mantendrá los archivos digitales por 30 días desde que estos han sido enviados al Cliente, respectivamente sean las fotos de la sesión o las fotos editadas con posterioridad.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1500" class="mainPrimario__preguntas">    
-                    <h3>¿Qué esperar?</h3>
-                    <p>
-                        Pasarlo increíble en un ambiente distendido y entretenido, y obtener fotografías de retrato y grupales que luego editaré a mi estilo, para entregarte un recuerdo precioso e inolvidable.
-                    </p>
-                    <br>
-                    <h3>¿Dónde será la sesión?</h3>
-                    <p>
-                        El lugar generalmente es en el exterior para tener luz natural, ojalá al atardecer para tener una luz suave y cálida. Normalmente utilizo parques, pero podemos elegirlo juntos, incluso puede ser en tu propia casa.
-                        En el estudio, utilizo los mejores equipos para lograr una luz que retrate a las personas de acuerdo a lo que estamos buscando.
-                    </p>
-                    <br>
-                    <h3>¿Cómo elegir la ropa?</h3>
-                    <p>
-                        Para una sesión de familia o de pareja, funciona muy bien estéticamente, si todos están con prendas de la misma paleta de colores, o combinando 2 tonos. Esto no significa que vengan todos vestidos del mismo color o con la misma ropa, sino jugar con los colores. Es mejor colores sólidos o neutros, ya que queda más armonioso visualmente. 
-                        Los tonos naturales, beige, gris y tonos pasteles funciona siempre! Es fácil de encontrar ropa que tengan estos colores y son colores fáciles de combinar entre ellos.
-                        Utilizar colores sólidos es una buena opción. Debes elegir solo 2 colores y jugar entre ellos. Evita las prendas con colores chillones, fosforescentes y dibujos de cualquier tipo.
-                        Busca telas que no se arruguen con facilidad.
-                        Los zapatos cómodos y limpios, con color para que combinen con la ropa.
-                    </p>
-                    <br>
-                    <h3>¿Cómo reservar una sesión fotográfica?</h3>
-                    <p>
-                        1. El precio de la sesión es el costo del tiempo dedicado por el Fotógrafo al Cliente y/o su familia, incluyendo las consultas previas a la sesión y el de la sesión fotográfica. Incluye además la preparación de la sesión, toma de fotografías, edición y entrega de fotografías digitales.
-                        <br>
-                        2. El depósito del50% de la suma total del precio de la sesión es requerido para asegurar al Cliente la reserva de la sesión. Este depósito asegura al Cliente el tiempo y servicios del Fotógrafo para la sesión Fotográfica y no es reembolsable, a menos que se caiga en la categoría de fuerza mayor.
-                        <br>
-                        3. La sesión de fotos puede ser reagendada por una vez, con al menos 24 horas de anticipación y de acuerdo a la disponibilidad del Fotógrafo para acordar la nueva fecha. En cualquier otro caso el depósito se perderá.
-                    </p>
-                    <br>
-                    <h3>¿Qué incluye la Sesión de Fotos? </h3>
-                    <p>
-                        1. Preparación de la sesión, consejos de vestuario, de locaciones y otros.
-                        <br>
-                        2. Consejos de posiciones durante la sesión.
-                        <br>
-                        3. Las sesiones pueden ser en Estudio Fotográfico, en el hogar del/la Cliente (previo chequeo y aprobación de la fotógrafa para tener un adecuado espacio, luz, etc.) o en locaciones exteriores.
-                        La elección del lugar y su hora se hará de acuerdo a criterios técnicos y artísticos dados por el Fotógrafo, los cambios que el/la Cliente desee introducir a estos criterios, serán de su responsabilidad.
-                        Las sesiones se pueden agendar de lunes a domingo, dependiendo de la disponibilidad y el horario que el Fotógrafo pueda proveer y lo que el/la Cliente requiera.
-                    </p>
-                    <br>
-                    <h3>Respecto a las responsabilidades durante la sesión fotográfica:</h3>
-                    <p>
-                        1. La Fotógrafa no será responsable por la decisión final de la elección de vestuario del/la Cliente, por la cooperación de este y los miembros de su grupo o familia durante la sesión y/o por la negativa a participar de uno o más miembros del grupo o familia del/la Cliente.
-                        <br>
-                        2. Será responsabilidad del/la Cliente asegurarse que su ropa, maquillaje, peinado y apariencia general están acordes a lo que el/la Cliente desea para sus fotos.
-                        <br>
-                        3. El criterio de la Fotógrafa acerca de las locaciones, poses y el número de imágenes a ser capturadas es aceptado de antemano por el/la Cliente al momento de hacer la reservación. Debido a la arbitrariedad del clima, de la luz y dependiendo de la disposición de los participantes en la sesión, puede que no sea posible capturar todas las imágenes pedidas.
-                        <br>
-                        4. El tiempo de la sesión dependerá de la cantidad de personas, la edad de los niños, la disposición de estos y de la locación. Aproximadamente será de 30 minutos para todos los packs de 10 fotos editadas y de 1 hora para packs de 20 fotos editadas.
-                    </p>
-                    <br>
-                    <h3>Procesamiento posterior de las imágenes:</h3>
-                    <p>
-                        1. Las fotos tomadas durante la sesión serán enviadas al cliente sin ser editadas mediante un link para que las pueda escoger. Una vez sean escogidas, el Fotógrafo dispone de 10 días hábiles desde la fecha para editar y entregar las fotos.   
-                        <br>
-                        2. Las decisiones estéticas y de edición se harán de acuerdo a lo que el fotógrafo considere necesario para obtener el mejor resultado. El Cliente acepta que contrata al fotógrafo habida consideración a su estética y experiencia, la que puede comprobar en las diversas redes sociales que exhiben el trabajo del Fotógrafo, por lo que deja al arbitrio de esta las decisiones de edición, sin ulterior reclamo.
-                        <br>
-                        3. Es responsabilidad del/la Cliente descargar y resguardar los archivos digitales que reciba, tanto los resultantes de la sesión como los editados posteriormente. El Estudio mantendrá los archivos digitales por 30 días desde que estos han sido enviados al Cliente, respectivamente sean las fotos de la sesión o las fotos editadas con posterioridad.
-                    </p>
-                </div>
-            </section>
+            </div>
         </main>
         <!--INICIO FOOTER-->    
         <footer>
@@ -130,5 +138,6 @@
         <script>
             AOS.init();
         </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

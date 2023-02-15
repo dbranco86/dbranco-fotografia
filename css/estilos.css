@@ -273,7 +273,6 @@ header{
     justify-content: center;
     width: 450px;
     margin: auto;
-    padding: 20px;
 }
 .mainSecundario__imagen-contacto img{
     width: 75%;
@@ -297,14 +296,14 @@ header{
     font-weight:lighter;
     font-size: 25px;
     text-align:left;
-    padding: 10px 10px 10px 0px;
+    padding: 0px 10px 10px 0px;
 }
 .mainSecundario__titulo p{
     color: #343232;
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align:left;
-    padding-left: 10px;
+    padding: 0px 0px 0px 10px;
 }
 .mainSecundario__formulario{
     width: 450px;
@@ -313,8 +312,8 @@ header{
 }
 .mainSecundario__formulario input{
     font-family: 'Playfair Display', serif;
-    width: 280px;
-    padding: 10px 10px;    
+    width: 300px;
+    padding: 5px 10px;    
 }
 .mainSecundario__formulario p{
     color: #343232;
@@ -322,6 +321,7 @@ header{
     font-size: 13px;
     text-align:left;
     padding: 3px;
+    margin-bottom: 0%;
 }
 /***Fin de Contacto***/
 
@@ -359,8 +359,6 @@ footer{
     opacity: 0.7;
 }
 .informacion__redes-sociales li{
-    /*width: 30px;
-    height: 30px;*/
     padding: 10px;
     margin: auto;
     display: inline-block;
@@ -422,7 +420,6 @@ footer{
     width: auto;
     height: auto;
     background-image: linear-gradient(#f0f0f0, white);
-    grid-area: main;
 }
 #mainSecundario{
     display: flex;
@@ -433,7 +430,6 @@ footer{
     height: auto;
     padding: 1%;
     background-image: linear-gradient(#f0f0f0, white);
-    grid-area: main;
 }
 
 /***Estilo boton***/
@@ -459,8 +455,8 @@ footer{
 /***Estilo textarea***/
 .mensaje{
     font-family: 'Playfair Display', serif;
-    padding: 10px 10px;
-    width: 280px;
+    padding: 0px 10px;
+    width: 300px;
 }
 /*****Fin estilos GENERALES*****/
 
@@ -493,6 +489,7 @@ footer{
 .mainPrimario__descripcion{
     width:auto;
 }
+
 /***Contacto***/
 .mainSecundario__imagen-contacto{
     width:auto;
