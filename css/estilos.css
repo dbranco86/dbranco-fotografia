@@ -435,6 +435,7 @@ footer{
 /***Estilo boton***/
 .boton{
     font-family: 'Playfair Display', serif;
+    color: #343232;
     font-size: 15px;
     width: auto;
     padding: 7px 30px;
@@ -446,7 +447,7 @@ footer{
 .boton:hover{
     color: #000000b6;
     background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
-    border-color: #000000;
+    border-color: #00000093;
     font-weight:bold;
 }
 .formulario__boton{
