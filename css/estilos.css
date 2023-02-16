@@ -176,7 +176,6 @@ header{
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    width: 60%;
     height: auto;
 }
 .sesion__carrusel-imagen{
@@ -488,6 +487,12 @@ footer{
 /***Sesion***/
 .mainPrimario__descripcion{
     width:auto;
+}
+.sesion__carrusel{
+    flex-wrap: wrap;
+}
+.sesion__carrusel-imagen{
+    width: 35%;
 }
 
 /***Contacto***/
