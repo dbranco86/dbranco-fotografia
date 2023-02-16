@@ -401,8 +401,9 @@ footer{
 }
 .formulario input{
     font-family: 'Playfair Display', serif;
+    font-size: small;
     width: auto;
-    padding: 10px 5px;
+    padding: 5px 5px;
 }
 /*****Fin estilo FOOTER*****/
 
@@ -436,9 +437,9 @@ footer{
     font-family: 'Playfair Display', serif;
     font-size: 15px;
     width: auto;
-    padding: 10px 30px;
+    padding: 7px 30px;
     cursor: pointer;
-    border: 2px solid #000000;
+    border: 2px solid gray;
     border-radius: 3px;
     background-color: transparent;
 }
