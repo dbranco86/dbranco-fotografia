@@ -435,7 +435,7 @@ footer{
 /***Estilo boton***/
 .boton{
     font-family: 'Playfair Display', serif;
-    color: #343232;
+    color: black;
     font-size: 15px;
     width: auto;
     padding: 7px 30px;
