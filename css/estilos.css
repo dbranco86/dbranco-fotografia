@@ -88,11 +88,15 @@ header{
     --bs-dropdown-border-width:0px;
 }
 .navbar-nav{
-    color: #494646;
+    align-items: center;
     text-decoration: none;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bold;
-    opacity: 0.9;
+    --bs-nav-link-padding-y: 0.6rem;
+}
+.navbar-nav li a{
+    color: gray;
+    font-size: 20px;
 }
 .dropdown-item{
     color: #494646;
@@ -102,10 +106,14 @@ header{
 }
 .offcanvas{
     --bs-offcanvas-width: 100%;
+    --bs-offcanvas-padding-y: 2rem;
     background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
 }
 .offcanvas-header{
     align-items: flex-start;
+}
+.offcanvas-header{
+    justify-content: end;
 }
 
 /*****Fin estilo HEADER*****/ 
@@ -483,6 +491,7 @@ footer{
 }
 .formulario__boton{
     display: flex;
+    margin: 1%;
 }
 
 /***Estilo textarea***/
@@ -511,6 +520,8 @@ footer{
 }
 .logo{
     height: 100px;
+    align-items: center;
+
 }
 .logo a{
     align-items: center;
