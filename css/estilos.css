@@ -92,6 +92,7 @@ header{
     text-decoration: none;
     font-family: 'Nanum Myeongjo', serif;
     font-weight: bold;
+    opacity: 0.9;
 }
 .dropdown-item{
     color: #494646;
@@ -483,6 +484,7 @@ footer{
 .formulario__boton{
     display: flex;
 }
+
 /***Estilo textarea***/
 .mensaje{
     font-family: 'Playfair Display', serif;
@@ -505,7 +507,7 @@ footer{
     display: flex;
 }
 .logo__imagen{
-    width:50%;
+    width:60%;
 }
 .logo{
     height: 100px;
@@ -513,6 +515,7 @@ footer{
 .logo a{
     align-items: center;
 }
+
 /***Estilo Main***/
 #mainSecundario{
     flex-direction: column;
