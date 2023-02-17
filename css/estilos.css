@@ -84,6 +84,29 @@ header{
 .navbar{
     display: none;
 }
+.dropdown-menu{
+    --bs-dropdown-border-width:0px;
+}
+.navbar-nav{
+    color: #494646;
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+.dropdown-item{
+    color: #494646;
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+.offcanvas{
+    --bs-offcanvas-width: 100%;
+    background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
+}
+.offcanvas-header{
+    align-items: flex-start;
+}
+
 /*****Fin estilo HEADER*****/ 
 
 /************************************************/
