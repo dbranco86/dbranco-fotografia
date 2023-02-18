@@ -199,7 +199,7 @@ header{
     padding: 5% 2% 2% 2%;
 }
 .sesion__imagen{
-    width: 80%;
+    width: 65%;
     padding-bottom: 2%;
 }
 .sesion__imagen img{
@@ -264,6 +264,11 @@ header{
 }
 .mainPrimario__imagen-sesion img{
     border-radius: 10px 70px 10px 70px;
+}
+.mainPrimario__carrusel{
+    width: 60%;
+    height: auto;
+    padding: 1%;
 }
 .mainPrimario__descripcion{
     width: 35%;
@@ -566,7 +571,11 @@ header{
 .sesion__carrusel-imagen{
     width: 35%;
 }
-
+/***Sesion-Seleccionada***/
+.mainPrimario__carrusel{
+    width: 100%;
+    padding: 0%;
+}
 /***Contacto***/
 .mainSecundario__imagen-contacto{
     width:auto;
