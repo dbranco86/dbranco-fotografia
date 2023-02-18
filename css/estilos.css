@@ -28,7 +28,7 @@ header{
     background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
     border-radius: 10px 100px 10px 100px;
     box-shadow: 10px 10px 10px 0px rgba(95, 92, 92, 0.733);
-    margin: 1%;
+    margin: 1% 1% 2% 1%;
     grid-area: header;
 }
 .logo{
@@ -81,6 +81,8 @@ header{
     color: #000000;
     font-weight:bolder;
 }
+
+/*****Estilo Menu RESPONSIVE*****/ 
 .navbar{
     display: none;
 }
@@ -95,7 +97,7 @@ header{
     --bs-nav-link-padding-y: 0.6rem;
 }
 .navbar-nav li a{
-    color: gray;
+    color: rgb(97, 96, 96);
     font-size: 20px;
 }
 .dropdown-item{
@@ -114,6 +116,9 @@ header{
 }
 .offcanvas-header{
     justify-content: end;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
 /*****Fin estilo HEADER*****/ 
@@ -243,6 +248,9 @@ header{
     color: #000000b6;
     background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
     border-color: #000000;
+}
+.carousel{
+    width: 100%;
 }
 /***Fin de Sesiones***/
 
@@ -509,6 +517,9 @@ footer{
 @media (max-width:576px){
     
 /***Estilo Header***/
+header{
+    margin: 1% 1% 4% 1%;
+}
 .nav-header__menu{
     display: none;
 }
@@ -517,6 +528,10 @@ footer{
 }
 .logo__imagen{
     width:60%;
+}
+.logo__imagen-mobile{
+    width:80%;
+    opacity: 0.7;
 }
 .logo{
     height: 100px;
