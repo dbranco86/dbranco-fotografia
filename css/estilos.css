@@ -281,6 +281,9 @@ button, input, optgroup, select, textarea {
 /***Fin de Sesiones***/
 
 /***Sesion-seleccionada***/
+.mainPrimario__imagen{
+    width: 100%;
+}
 .mainPrimario__carrusel{
     width: 60%;
     height: auto;
