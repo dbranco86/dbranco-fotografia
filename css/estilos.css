@@ -261,6 +261,7 @@ button, input, optgroup, select, textarea {
     background-color: #f0f0f0;
     padding: 1%;
     margin-top: 2%;
+    animation: flotar 3s ease-in-out infinite;
 }
 .sesiones__boton a{
     color: #343232;
@@ -280,16 +281,6 @@ button, input, optgroup, select, textarea {
 /***Fin de Sesiones***/
 
 /***Sesion-seleccionada***/
-.mainPrimario__imagen{
-    width: 100%;
-}
-.mainPrimario__imagen-sesion{
-    width: 40%;
-    padding-top: 4%;
-}
-.mainPrimario__imagen-sesion img{
-    border-radius: 10px 70px 10px 70px;
-}
 .mainPrimario__carrusel{
     width: 60%;
     height: auto;
@@ -321,6 +312,7 @@ button, input, optgroup, select, textarea {
     font-family: 'Playfair Display', serif;
     font-weight:lighter;
     font-size: 40px;
+    animation: flotar 3s ease-in-out infinite;
 }
 .mainPrimario__preguntas{
     width:auto;
@@ -373,7 +365,6 @@ button, input, optgroup, select, textarea {
     font-size: 25px;
     text-align:left;
     padding: 0px 10px 10px 0px;
-    animation: flotar 3s ease-in-out infinite;
 }
 .mainSecundario__titulo p{
     color: #343232;
@@ -391,6 +382,9 @@ button, input, optgroup, select, textarea {
     font-family: 'Playfair Display', serif;
     width: 300px;
     padding: 5px 10px;    
+}
+.mainSecundario__formulario input:focus{
+    outline: 1px solid black;
 }
 .mainSecundario__formulario p{
     color: #343232;
@@ -483,6 +477,9 @@ footer{
     width: auto;
     padding: 5px 5px;
 }
+.formulario input:focus{
+    outline: 1px solid black;
+}
 /*****Fin estilo FOOTER*****/
 
 /************************************************/
@@ -539,6 +536,10 @@ footer{
     padding: 0px 10px;
     width: 300px;
 }
+.mensaje:focus{
+    outline: 1px solid black;
+}
+
 /*****Fin estilos GENERALES*****/
 
 /************************************************/
@@ -550,7 +551,7 @@ footer{
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(7px);
+		transform: translatey(6px);
 	}
 	100% {
 		transform: translatey(0px);
@@ -654,5 +655,12 @@ header{
 .formulario__boton{
     padding-top: 4%;
 }
-
 }    
+
+@media (max-width:765px){
+
+    /***Estilo Header***/    
+    .nav-header{
+        width: 70%;
+    }
+}
