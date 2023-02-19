@@ -388,6 +388,7 @@ button, input, optgroup, select, textarea {
 }
 .mainSecundario__formulario input:focus{
     outline: 1px solid black;
+    border-radius: 3px;
 }
 .mainSecundario__formulario p{
     color: #343232;
@@ -541,6 +542,7 @@ footer{
 }
 .mensaje:focus{
     outline: 1px solid black;
+    border-radius: 3px;
 }
 
 /*****Fin estilos GENERALES*****/
