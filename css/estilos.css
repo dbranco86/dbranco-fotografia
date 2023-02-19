@@ -54,7 +54,7 @@ header{
     flex-wrap:nowrap;
     justify-content: center;
     align-items: center;
-    width: 45%;
+    width: 55%;
 }
 .nav-header__menu{
     display: flex;
@@ -76,10 +76,23 @@ header{
     font-weight: bold;
     letter-spacing:1.5px;
     margin: auto; 
+    padding: 3px;
+    position: relative;
 }
-.nav-header__menu a:hover{
-    color: #000000;
-    font-weight:bolder;
+.nav-header__menu a:after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #343232;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+}
+.nav-header__menu a:hover::after{
+    width: 100%;
+    right: 0;
 }
 
 /*****Estilo Menu RESPONSIVE*****/ 
@@ -89,6 +102,18 @@ header{
 .dropdown-menu{
     --bs-dropdown-border-width:0px;
 }
+button, input, optgroup, select, textarea {
+    font-size: x-large;
+}
+.btn-close {
+    --bs-btn-close-focus-shadow: 0 0 0 0.25rem #818283;
+    width: 2em;
+    height: 2em;
+}
+.offcanvas-header .btn-close {
+    margin-right: 0;
+    padding: calc(var(--bs-offcanvas-padding-y) * .3) calc(var(--bs-offcanvas-padding-x) * .5);
+}    
 .navbar-nav{
     align-items: center;
     text-decoration: none;
@@ -348,6 +373,7 @@ header{
     font-size: 25px;
     text-align:left;
     padding: 0px 10px 10px 0px;
+    animation: flotar 3s ease-in-out infinite;
 }
 .mainSecundario__titulo p{
     color: #343232;
@@ -516,6 +542,22 @@ footer{
 /*****Fin estilos GENERALES*****/
 
 /************************************************/
+/*Animaciones*/
+/************************************************/
+
+@keyframes flotar {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(7px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+/************************************************/
 /*Media Queries*/
 /************************************************/
 
@@ -537,6 +579,7 @@ header{
 .logo__imagen-mobile{
     width:80%;
     opacity: 0.7;
+    animation: flotar 5s ease-in-out infinite;
 }
 .logo{
     height: 100px;
@@ -575,6 +618,11 @@ header{
 .mainPrimario__carrusel{
     width: 100%;
     padding: 0%;
+}
+/***Q&A***/
+#mainPrimario h1{
+    font-size: 25px;
+    padding: 1px;
 }
 /***Contacto***/
 .mainSecundario__imagen-contacto{
