@@ -483,6 +483,7 @@ footer{
 }
 .formulario input:focus{
     outline: 1px solid black;
+    border-radius: 3px;
 }
 /*****Fin estilo FOOTER*****/
 
