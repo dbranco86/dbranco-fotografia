@@ -1,0 +1,70 @@
+#mainPrimario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(#f0f0f0, white);
+    h1{
+        color: #343232;
+        font-family: 'Playfair Display', serif;
+        font-size: 40px;
+        font-weight:lighter;
+        text-align: center;
+        padding: 30px;
+    }
+    @media (max-width:576px){        
+        //***Q&A***/
+        #mainPrimario h1{
+            font-size: 25px;
+            padding: 1px;
+        }
+        //***Sesion-Seleccionada***/
+        .mainPrimario__carrusel{
+            width: 100%;
+            padding: 0%;
+        }
+        .mainPrimario__descripcion{
+            width:auto;
+        }
+    }
+}
+#mainSecundario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: auto;
+    height: auto;
+    padding: 1%;
+    background-image: linear-gradient(#f0f0f0, white);
+    @media (max-width:576px){       
+        /***Estilo Main***/
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        //***Quien-soy***/
+        .mainSecundario__quien-soy{
+            width:auto;
+        }
+        //***Contacto***/
+        .mainSecundario__imagen-contacto{
+            width:auto;
+        }
+        .mainSecundario__formulario{
+            width: auto;
+        }
+        .mainSecundario__titulo-formulario{
+            width: auto;
+        }
+        .mainSecundario__titulo{
+            width: auto;
+        }
+    }
+}
+
+
+

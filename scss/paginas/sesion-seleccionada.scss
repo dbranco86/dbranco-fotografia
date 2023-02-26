@@ -1,0 +1,22 @@
+.mainPrimario__imagen{
+    width: 100%;
+}
+.mainPrimario__carrusel{
+    width: 60%;
+    height: auto;
+    padding: 1%;
+}
+.mainPrimario__descripcion{
+    width: 35%;
+    height: auto;
+    padding: 1%;
+    p{
+        color: #343232;
+        font-family: 'Playfair Display', serif;
+        font-weight:lighter;
+        font-size: 20px;
+        text-align:center;
+        padding: 1%;
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,38 @@
+.mainSecundario__quien-soy{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content:center;
+    h1{
+        color: #343232;
+        font-family: 'Playfair Display', serif;
+        font-weight:lighter;
+        font-size: 40px;
+        text-align:left;
+        padding: 1%;
+    }
+    p{
+        width:auto;
+        height: auto;
+        color: #343232;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 18px;
+        text-align:left;
+        padding: 15px 0px 0px 30px;
+    }
+}
+.mainSecundario__imagen-perfil{
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    padding: 5% 0% 5% 0%;
+    position: relative;
+    img{
+        width: 100%;
+        border-radius: 10px 70px 10px 70px;
+    }
+}
+
