@@ -5,14 +5,14 @@
     align-items: center;
     width: auto;
     height: auto;
-    background-image: linear-gradient(#f0f0f0, white);
+    background-image: $color-fondo;
     h1{
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-size: 40px;
         font-weight:lighter;
         text-align: center;
-        padding: 30px;
+        padding: 15px;
     }
     @media (max-width:576px){        
         //***Q&A***/
@@ -38,7 +38,7 @@
     width: auto;
     height: auto;
     padding: 1%;
-    background-image: linear-gradient(#f0f0f0, white);
+    background-image: $color-fondo;
     @media (max-width:576px){       
         /***Estilo Main***/
         flex-direction: column;

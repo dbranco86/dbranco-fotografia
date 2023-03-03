@@ -21,7 +21,7 @@
     margin:auto;
     h1{
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-weight:lighter;
         font-size: 25px;
         text-align:left;
@@ -29,7 +29,7 @@
     }
     p{
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-size: 16px;
         text-align:left;
         padding: 0px 0px 0px 10px;
@@ -40,13 +40,13 @@
     height: auto;
     padding: 10px;
     input{
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         width: 300px;
         padding: 5px 10px;    
     }
     p{
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-size: 13px;
         text-align:left;
         padding: 3px;
@@ -60,7 +60,7 @@
     }
 }
 .mensaje{
-    font-family: 'Playfair Display', serif;
+    font-family: $tipografia-general;
     padding: 0px 10px;
     width: 300px;
     &:focus{

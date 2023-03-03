@@ -7,7 +7,7 @@
     justify-content:center;
     h1{
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-weight:lighter;
         font-size: 40px;
         text-align:left;
@@ -17,7 +17,7 @@
         width:auto;
         height: auto;
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-style: italic;
         font-size: 18px;
         text-align:left;
