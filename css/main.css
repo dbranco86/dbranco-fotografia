@@ -6,6 +6,12 @@
   border: 2px solid gray;
   border-radius: 3px; }
 
+.mainSecundario__formulario input {
+  width: 300px; }
+
+.formulario input {
+  width: 166px; }
+
 * {
   font-family: "Playfair Display", serif;
   margin: 0%;
@@ -272,7 +278,6 @@ footer {
     footer .formulario input {
       font-family: "Playfair Display", serif;
       font-size: small;
-      width: auto;
       padding: 5px 5px; }
       footer .formulario input:focus {
         outline: 1px solid black;
@@ -462,11 +467,14 @@ footer {
 .mainSecundario__imagen-contacto {
   display: flex;
   justify-content: center;
-  width: 450px;
+  width: 400px;
   margin: auto; }
   .mainSecundario__imagen-contacto img {
-    width: 75%;
+    width: 100%;
     border-radius: 10px 70px 10px 70px; }
+  @media (min-width: 1920px) {
+    .mainSecundario__imagen-contacto {
+      margin-left: 25%; } }
 
 .mainSecundario__titulo-formulario {
   width: 450px;
@@ -474,6 +482,9 @@ footer {
   margin: auto;
   padding: 20px;
   float: left; }
+  @media (min-width: 1920px) {
+    .mainSecundario__titulo-formulario {
+      margin-right: 20%; } }
 
 .mainSecundario__titulo {
   width: 450px;
@@ -499,7 +510,6 @@ footer {
   padding: 10px; }
   .mainSecundario__formulario input {
     font-family: "Playfair Display", serif;
-    width: 300px;
     padding: 5px 10px; }
   .mainSecundario__formulario p {
     color: #343232;

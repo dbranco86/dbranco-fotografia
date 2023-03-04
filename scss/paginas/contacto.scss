@@ -1,11 +1,13 @@
 .mainSecundario__imagen-contacto{
     display: flex;
     justify-content: center;
-    width: 450px;
+    width: 400px;
     margin: auto;
     img{
-        width: 75%;
-        border-radius: 10px 70px 10px 70px;
+        @include imagenes(100%, 10px 70px 10px 70px);
+    }
+    @media (min-width:1920px){   
+        margin-left:25%;
     }
 }
 .mainSecundario__titulo-formulario{
@@ -14,6 +16,9 @@
     margin: auto;
     padding: 20px;
     float: left;
+    @media (min-width:1920px){   
+        margin-right:20%;
+    }
 }
 .mainSecundario__titulo{
     width: 450px;
@@ -41,7 +46,6 @@
     padding: 10px;
     input{
         font-family: $tipografia-general;
-        width: 300px;
         padding: 5px 10px;    
     }
     p{
