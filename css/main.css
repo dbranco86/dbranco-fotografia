@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair+Display&display=swap");
+.botones, .boton-primario {
+  font-size: 15px;
+  width: auto;
+  padding: 7px 30px;
+  border: 2px solid gray;
+  border-radius: 3px; }
+
 * {
+  font-family: "Playfair Display", serif;
   margin: 0%;
   padding: 0%; }
 
@@ -9,17 +17,12 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto; }
 
-.boton {
-  font-family: 'Playfair Display', serif;
+.boton-primario {
+  font-family: "Playfair Display", serif;
   color: black;
-  font-size: 15px;
-  width: auto;
-  padding: 7px 30px;
   cursor: pointer;
-  border: 2px solid gray;
-  border-radius: 3px;
   background-color: transparent; }
-  .boton:hover {
+  .boton-primario:hover {
     color: #000000b6;
     background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
     border-color: #00000093;
@@ -38,7 +41,7 @@ header {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  background-image: linear-gradient(#0000002c, #f0f0f0d5, #f0f0f0);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(240, 240, 240, 0.84), #f0f0f0);
   border-radius: 10px 100px 10px 100px;
   box-shadow: 10px 10px 10px 0px rgba(95, 92, 92, 0.733);
   margin: 1% 1% 2% 1%;
@@ -127,12 +130,14 @@ header {
   header .offcanvas {
     --bs-offcanvas-width: 100%;
     --bs-offcanvas-padding-y: 2rem;
-    background-image: linear-gradient(#0000002c, #f0f0f0d5, #f0f0f0); }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(240, 240, 240, 0.84), #f0f0f0); }
   header .offcanvas-header {
     align-items: flex-start;
     justify-content: end; }
-  header .navbar-toggler:focus {
-    box-shadow: none; }
+  header .navbar-toggler {
+    --bs-navbar-toggler-border-radius: 10px 20px 10px 20px; }
+    header .navbar-toggler:focus {
+      box-shadow: none; }
   @media (max-width: 576px) {
     header {
       /***Estilo Header***/
@@ -170,10 +175,11 @@ header {
     font-size: 40px;
     font-weight: lighter;
     text-align: center;
-    padding: 15px; }
+    padding: 15px;
+    margin: 5% 0% 5% 0%; }
   @media (max-width: 576px) {
-    #mainPrimario #mainPrimario h1 {
-      font-size: 25px;
+    #mainPrimario h1 {
+      font-size: 30px;
       padding: 1px; }
     #mainPrimario .mainPrimario__carrusel {
       width: 100%;
@@ -215,7 +221,7 @@ footer {
   flex-wrap: nowrap;
   align-items: center;
   justify-items: center;
-  background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(240, 240, 240, 0.84), #f0f0f0);
   width: auto;
   height: 100%;
   grid-area: footer; }
@@ -241,7 +247,7 @@ footer {
     padding: 2%; }
     footer .contacto a {
       color: #343232;
-      font-family: 'Playfair Display', serif;
+      font-family: "Playfair Display", serif;
       font-size: large;
       font-weight: bold;
       letter-spacing: 1.5px;
@@ -252,7 +258,7 @@ footer {
         font-weight: bolder; }
   footer .datos {
     color: #343232;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: medium;
     text-align: center; }
   footer .formulario {
@@ -264,7 +270,7 @@ footer {
     border-color: gray;
     padding: 20px; }
     footer .formulario input {
-      font-family: 'Playfair Display', serif;
+      font-family: "Playfair Display", serif;
       font-size: small;
       width: auto;
       padding: 5px 5px; }
@@ -350,6 +356,10 @@ footer {
     text-align: center;
     padding: 1%; }
   @media (max-width: 576px) {
+    #sesiones h2 {
+      font-size: 35px; }
+    #sesiones p {
+      font-size: 18px; }
     #sesiones .mainPrimario__descripcion {
       width: auto; }
     #sesiones .sesion__carrusel {

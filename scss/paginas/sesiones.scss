@@ -5,7 +5,7 @@
     align-items: center;
     width: auto;
     height: auto;
-    background-image: $color-fondo;
+    background-image: $color-secundario;
     padding: 1%;
     margin-bottom: 5%;
     h2{
@@ -25,6 +25,12 @@
         padding: 1%;
     }
     @media (max-width:576px){
+        h2{
+            font-size: 35px;
+        }
+        p{
+            font-size: 18px;
+        }
         //***Sesion***/
         .mainPrimario__descripcion{
             width:auto;

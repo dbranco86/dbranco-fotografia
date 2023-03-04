@@ -4,7 +4,7 @@ footer{
     flex-wrap: nowrap;
     align-items: center;
     justify-items: center;
-    background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
+    background-image: $color-primario;
     width: auto;
     height: 100%;
     grid-area: footer;
@@ -34,7 +34,7 @@ footer{
         padding: 2%;
         a{
             color: #343232;
-            font-family: 'Playfair Display', serif;
+            font-family: $tipografia-general;
             font-size:large;
             font-weight:bold;
             letter-spacing: 1.5px;
@@ -48,7 +48,7 @@ footer{
     }
     .datos{
         color: #343232;
-        font-family: 'Playfair Display', serif;
+        font-family: $tipografia-general;
         font-size:medium;
         text-align: center;
     }
@@ -61,7 +61,7 @@ footer{
         border-color: gray;
         padding: 20px;
         input{
-            font-family: 'Playfair Display', serif;
+            font-family: $tipografia-general;
             font-size: small;
             width: auto;
             padding: 5px 5px;

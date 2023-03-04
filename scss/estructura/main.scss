@@ -5,7 +5,7 @@
     align-items: center;
     width: auto;
     height: auto;
-    background-image: $color-fondo;
+    background-image: $color-secundario;
     h1{
         color: #343232;
         font-family: $tipografia-general;
@@ -13,11 +13,12 @@
         font-weight:lighter;
         text-align: center;
         padding: 15px;
+        margin: 5% 0% 5% 0%;
     }
-    @media (max-width:576px){        
+    @media (max-width:576px){       
         //***Q&A***/
-        #mainPrimario h1{
-            font-size: 25px;
+        h1{
+            font-size: 30px;
             padding: 1px;
         }
         //***Sesion-Seleccionada***/
@@ -38,7 +39,7 @@
     width: auto;
     height: auto;
     padding: 1%;
-    background-image: $color-fondo;
+    background-image: $color-secundario;
     @media (max-width:576px){       
         /***Estilo Main***/
         flex-direction: column;

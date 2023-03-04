@@ -1,12 +1,8 @@
-.boton{
-    font-family: 'Playfair Display', serif;
+.boton-primario{
+    font-family: $tipografia-general;
     color: black;
-    font-size: 15px;
-    width: auto;
-    padding: 7px 30px;
     cursor: pointer;
-    border: 2px solid gray;
-    border-radius: 3px;
+    @extend .botones;
     background-color: transparent;
     &:hover{
         color: #000000b6;

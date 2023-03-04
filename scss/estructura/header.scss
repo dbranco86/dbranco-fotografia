@@ -3,7 +3,7 @@ header{
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
+    background-image: $color-primario;
     border-radius: 10px 100px 10px 100px;
     box-shadow: 10px 10px 10px 0px rgba(95, 92, 92, 0.733);
     margin: 1% 1% 2% 1%;
@@ -111,13 +111,14 @@ header{
     .offcanvas{
         --bs-offcanvas-width: 100%;
         --bs-offcanvas-padding-y: 2rem;
-        background-image: linear-gradient(#0000002c,#f0f0f0d5, #f0f0f0);
+        background-image: $color-primario;
     }
     .offcanvas-header{
         align-items: flex-start;
         justify-content: end;
     }
     .navbar-toggler{
+        --bs-navbar-toggler-border-radius: 10px 20px 10px 20px;
         &:focus{
             box-shadow: none;
         }
