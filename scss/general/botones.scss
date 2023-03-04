@@ -1,8 +1,8 @@
 .boton-primario{
     font-family: $tipografia-general;
+    @extend .botones;
     color: black;
     cursor: pointer;
-    @extend .botones;
     background-color: transparent;
     &:hover{
         color: #000000b6;
