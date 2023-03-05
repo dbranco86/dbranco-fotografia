@@ -228,6 +228,8 @@ header {
   @media (max-width: 576px) {
     #mainPrimario .sesion__carrusel-principal {
       flex-direction: column; }
+    #mainPrimario .sesiones__boton {
+      animation: none; }
     #mainPrimario h1 {
       font-size: 30px;
       padding: 1px; }
