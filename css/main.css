@@ -15,6 +15,18 @@
 .titulo-xl {
   font-size: 50px; }
 
+.parrafo-xs {
+  font-size: 13px; }
+
+.parrafo-md {
+  font-size: 16px; }
+
+.parrafo-lg {
+  font-size: 18px; }
+
+.parrafo-xl {
+  font-size: 23px; }
+
 .mainSecundario__formulario input {
   width: 300px; }
 
@@ -39,7 +51,7 @@ body {
   background-color: transparent; }
   .boton-primario:hover {
     color: #000000b6;
-    background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.17), rgba(240, 240, 240, 0.84), #f0f0f0);
     border-color: #00000093;
     font-weight: bold; }
 
@@ -273,7 +285,6 @@ footer {
   footer .datos {
     color: #343232;
     font-family: "Playfair Display", serif;
-    font-size: medium;
     text-align: center; }
   footer .formulario {
     display: flex;
@@ -329,7 +340,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-style: italic;
-    font-size: 18px;
     text-align: left;
     padding: 15px 0px 0px 30px; }
 
@@ -363,7 +373,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 23px;
     text-align: center;
     padding: 1%; }
   @media (max-width: 576px) {
@@ -437,7 +446,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 20px;
     text-align: center;
     padding: 1%;
     margin-top: 5%; }
@@ -458,7 +466,6 @@ footer {
   .mainPrimario__preguntas p {
     color: #343232;
     font-family: "Playfair Display", serif;
-    font-size: 18px;
     text-align: left;
     padding-left: 1%; }
   .mainPrimario__preguntas h3 {
@@ -504,7 +511,6 @@ footer {
   .mainSecundario__titulo p {
     color: #343232;
     font-family: "Playfair Display", serif;
-    font-size: 16px;
     text-align: left;
     padding: 0px 0px 0px 10px; }
 
@@ -518,7 +524,6 @@ footer {
   .mainSecundario__formulario p {
     color: #343232;
     font-family: "Playfair Display", serif;
-    font-size: 13px;
     text-align: left;
     padding: 3px;
     margin-bottom: 0%; }

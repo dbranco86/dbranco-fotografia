@@ -1,6 +1,8 @@
+//Variables para color de fondo
 $color-primario:linear-gradient(rgba(0, 0, 0, 0.17), rgba(240, 240, 240, 0.84), rgba(240, 240, 240, 1));
 $color-secundario:linear-gradient(rgba(244, 244, 244, 1), rgba(255, 255, 255, 1));
 
+//Variable para tipo de letra
 $tipografia-general:'Playfair Display', serif;
 
 //Mapas
@@ -9,5 +11,12 @@ $titulos:(
 	"lg": 40px,
 	"xl": 50px
 );
+
+$parrafos:(
+	"xs": 13px,
+	"md": 16px,
+	"lg": 18px,
+	"xl": 23px,
+)
 
 

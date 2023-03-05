@@ -1,0 +1,13 @@
+//Each para titulos
+@each $nombre, $size in $titulos {
+	.titulo-#{$nombre}{
+		font-size: $size;	
+	}
+}
+
+//Each para parrafos
+@each $nombre, $size in $parrafos {
+	.parrafo-#{$nombre}{
+		font-size: $size;	
+	}
+}

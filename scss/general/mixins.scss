@@ -1,3 +1,4 @@
+//Mixin para estilo de imagenes
 @mixin imagenes ($width, $border){
     width: $width;
     border-radius: $border;

@@ -1,3 +1,4 @@
+//Estilos del boton
 .boton-primario{
     font-family: $tipografia-general;
     @extend .botones;
@@ -6,7 +7,7 @@
     background-color: transparent;
     &:hover{
         color: #000000b6;
-        background-image: linear-gradient(#0000002c, #f0f0f0d5, white);
+        background-image: $color-primario;
         border-color: #00000093;
         font-weight:bold;
     }
