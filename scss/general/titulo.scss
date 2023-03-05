@@ -1,0 +1,5 @@
+@each $nombre, $size in $titulos {
+	.titulo-#{$nombre}{
+		font-size: $size;	
+	}
+}

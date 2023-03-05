@@ -6,6 +6,15 @@
   border: 2px solid gray;
   border-radius: 3px; }
 
+.titulo-md {
+  font-size: 25px; }
+
+.titulo-lg {
+  font-size: 40px; }
+
+.titulo-xl {
+  font-size: 50px; }
+
 .mainSecundario__formulario input {
   width: 300px; }
 
@@ -178,7 +187,6 @@ header {
   #mainPrimario h1 {
     color: #343232;
     font-family: "Playfair Display", serif;
-    font-size: 40px;
     font-weight: lighter;
     text-align: center;
     padding: 15px;
@@ -313,7 +321,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 40px;
     text-align: left;
     padding: 1%; }
   .mainSecundario__quien-soy p {
@@ -350,7 +357,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 50px;
     text-align: center;
     padding: 5% 2% 2% 2%; }
   #sesiones p {
@@ -443,7 +449,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 40px;
     animation: flotar 3s ease-in-out infinite; }
 
 .mainPrimario__preguntas {
@@ -494,7 +499,6 @@ footer {
     color: #343232;
     font-family: "Playfair Display", serif;
     font-weight: lighter;
-    font-size: 25px;
     text-align: left;
     padding: 0px 10px 10px 0px; }
   .mainSecundario__titulo p {
