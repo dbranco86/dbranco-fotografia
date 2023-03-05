@@ -5,6 +5,7 @@
     align-items: center;
     width: auto;
     height: auto;
+    padding-bottom: 3%;
     background-image: $color-secundario;
     h1{
         color: #343232;
@@ -14,7 +15,35 @@
         padding: 15px;
         margin: 5% 0% 5% 0%;
     }
-    @media (max-width:576px){       
+    .sesion__carrusel-principal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-bottom: 1%;
+    }
+    .sesion__carrusel-inicio{
+        width: 80%;
+        padding: 2%;
+        img{
+            @include imagenes (100%, 10px 70px 10px 70px);
+        }
+    }
+    .sesion__carrusel-columna{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    @media (max-width:576px){
+        //***Inicio***//
+        .sesion__carrusel-principal{
+            flex-direction: column;
+        }
         //***Q&A***/
         h1{
             font-size: 30px;

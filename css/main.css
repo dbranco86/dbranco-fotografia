@@ -195,6 +195,7 @@ header {
   align-items: center;
   width: auto;
   height: auto;
+  padding-bottom: 3%;
   background-image: linear-gradient(#f4f4f4, white); }
   #mainPrimario h1 {
     color: #343232;
@@ -203,7 +204,30 @@ header {
     text-align: center;
     padding: 15px;
     margin: 5% 0% 5% 0%; }
+  #mainPrimario .sesion__carrusel-principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 1%; }
+  #mainPrimario .sesion__carrusel-inicio {
+    width: 80%;
+    padding: 2%; }
+    #mainPrimario .sesion__carrusel-inicio img {
+      width: 100%;
+      border-radius: 10px 70px 10px 70px; }
+  #mainPrimario .sesion__carrusel-columna {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
   @media (max-width: 576px) {
+    #mainPrimario .sesion__carrusel-principal {
+      flex-direction: column; }
     #mainPrimario h1 {
       font-size: 30px;
       padding: 1px; }
@@ -400,7 +424,8 @@ footer {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  height: auto; }
+  height: auto;
+  margin-bottom: 1%; }
 
 .sesion__carrusel-imagen {
   width: 15%;
