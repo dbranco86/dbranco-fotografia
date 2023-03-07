@@ -165,6 +165,8 @@ header {
     --bs-navbar-toggler-border-radius: 10px 20px 10px 20px; }
     header .navbar-toggler:focus {
       box-shadow: none; }
+  header :root {
+    --bs-font-sans-serif: none; }
   @media (max-width: 576px) {
     header {
       /***Estilo Header***/
@@ -234,7 +236,7 @@ header {
       #mainSecundario .mainSecundario__quien-soy {
         width: auto; }
       #mainSecundario .mainSecundario__imagen-contacto {
-        width: auto; }
+        width: 70%; }
       #mainSecundario .mainSecundario__formulario {
         width: auto; }
       #mainSecundario .mainSecundario__titulo-formulario {
@@ -346,13 +348,16 @@ footer {
 
 .mainSecundario__imagen-perfil {
   justify-content: center;
-  width: 30%;
+  width: 350px;
   height: auto;
   padding: 5% 0% 5% 0%;
   position: relative; }
   .mainSecundario__imagen-perfil img {
     width: 100%;
     border-radius: 10px 70px 10px 70px; }
+  @media (max-width: 576px) {
+    .mainSecundario__imagen-perfil {
+      width: 70%; } }
 
 #sesiones {
   display: flex;
@@ -481,7 +486,7 @@ footer {
 .mainSecundario__imagen-contacto {
   display: flex;
   justify-content: center;
-  width: 400px;
+  width: 300px;
   margin: auto; }
   .mainSecundario__imagen-contacto img {
     width: 100%;

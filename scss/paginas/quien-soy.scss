@@ -24,12 +24,15 @@
 }
 .mainSecundario__imagen-perfil{
     justify-content: center;
-    width: 30%;
+    width: 350px;
     height: auto;
     padding: 5% 0% 5% 0%;
     position: relative;
     img{
         @include imagenes (100%, 10px 70px 10px 70px );
+    }
+    @media (max-width:576px){  
+        width: 70%;
     }
 }
 
