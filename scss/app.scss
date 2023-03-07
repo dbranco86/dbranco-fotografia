@@ -1,25 +1,25 @@
 //General
-@import"./general/variables.scss";
-@import"./general/mixins.scss";
-@import"./general/extends.scss";
-@import"./general/each.scss";
-@import"./general/operadores.scss";
-@import"./general/tipografia.scss";
-@import"./general/estilos-generales.scss";
-@import"./general/botones.scss";
-@import"./general/animaciones.scss";
+@import"./general/_variables.scss";
+@import"./general/_mixins.scss";
+@import"./general/_extends.scss";
+@import"./general/_each.scss";
+@import"./general/_operadores.scss";
+@import"./general/_tipografia.scss";
+@import"./general/_estilos-generales.scss";
+@import"./general/_botones.scss";
+@import"./general/_animaciones.scss";
 
 //Estructura
-@import"./estructura/header.scss";
-@import"./estructura/main.scss";
-@import"./estructura/footer.scss";
+@import"./estructura/_header.scss";
+@import"./estructura/_main.scss";
+@import"./estructura/_footer.scss";
 
 //Paginas
-@import"./paginas/quien-soy.scss";
-@import"./paginas/sesiones.scss";
-@import"./paginas/sesion-seleccionada.scss";
-@import"./paginas/q&a.scss";
-@import"./paginas/contacto.scss";
+@import"./paginas/_quien-soy.scss";
+@import"./paginas/_sesiones.scss";
+@import"./paginas/_sesion-seleccionada.scss";
+@import"./paginas/_q&a.scss";
+@import"./paginas/_contacto.scss";
 
 
 

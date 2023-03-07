@@ -1,7 +1,7 @@
 .mainSecundario__imagen-contacto{
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 350px;
     margin: auto;
     img{
         @include imagenes(100%, 10px 70px 10px 70px);

@@ -486,7 +486,7 @@ footer {
 .mainSecundario__imagen-contacto {
   display: flex;
   justify-content: center;
-  width: 300px;
+  width: 350px;
   margin: auto; }
   .mainSecundario__imagen-contacto img {
     width: 100%;
