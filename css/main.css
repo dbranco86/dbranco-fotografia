@@ -419,7 +419,7 @@ footer {
   border: 2px solid gray;
   border-radius: 3px;
   background-color: #f0f0f0;
-  padding: 1%;
+  padding: 7px 20px;
   margin-top: 2%;
   animation: flotar 3s ease-in-out infinite; }
   .sesiones__boton:hover {
