@@ -4,6 +4,8 @@
     margin:0%;
     padding: 0%;
 }
+
+//Estilo del body
 body{
     display: grid;
     grid-template-areas: 
@@ -13,5 +15,20 @@ body{
     ;
     grid-template-columns: auto;
     grid-template-rows: auto;
+}
+
+//Estilos del boton
+.boton-primario{
+    font-family: $tipografia-general;
+    @extend %botones;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    &:hover{
+        color: #000000b6;
+        background-image: $color-primario;
+        border-color: #00000093;
+        font-weight:bold;
+    }
 }
 

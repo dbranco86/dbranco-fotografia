@@ -5,6 +5,9 @@ $color-secundario:linear-gradient(rgba(244, 244, 244, 1), rgba(255, 255, 255, 1)
 //Variable para tipo de letra
 $tipografia-general:'Playfair Display', serif;
 
+//Variable para el tamaño del carrusel
+$size-carrusel: 60%;
+
 //Mapas
 $titulos:(
 	"md": 25px,
@@ -18,5 +21,4 @@ $parrafos:(
 	"lg": 18px,
 	"xl": 23px,
 )
-
 
