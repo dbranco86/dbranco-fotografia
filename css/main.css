@@ -165,8 +165,6 @@ header {
     --bs-navbar-toggler-border-radius: 10px 20px 10px 20px; }
     header .navbar-toggler:focus {
       box-shadow: none; }
-  header :root {
-    --bs-font-sans-serif: none; }
   @media (max-width: 576px) {
     header {
       /***Estilo Header***/
@@ -429,7 +427,7 @@ footer {
   .sesiones__boton a {
     color: #343232;
     font-family: "Playfair Display", serif;
-    font-size: large;
+    font-size: 15px;
     text-align: center;
     text-decoration: none; }
 
