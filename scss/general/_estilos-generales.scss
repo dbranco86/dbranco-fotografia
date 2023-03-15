@@ -5,7 +5,7 @@
     padding: 0%;
 }
 
-//Estilo del body
+//Estilos utilizados para el body
 body{
     display: grid;
     grid-template-areas: 
@@ -17,7 +17,7 @@ body{
     grid-template-rows: auto;
 }
 
-//Estilos del boton
+//Estilos utilizados para los botones
 .boton-primario{
     font-family: $tipografia-general;
     @extend %botones;
