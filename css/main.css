@@ -55,6 +55,21 @@ body {
     border-color: #00000093;
     font-weight: bold; }
 
+.boton-secundario {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  z-index: 3000000;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .boton-secundario .boton-secundario_imagen {
+    width: 100%;
+    opacity: 0.7; }
+
 @keyframes flotar {
   0% {
     transform: translatey(0px); }
