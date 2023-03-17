@@ -6,3 +6,11 @@
     border: 2px solid gray;
     border-radius: 3px;
 }
+
+//Extend para estilo de h1
+%h1{
+    color: #343232;
+    font-family: $tipografia-general;
+    font-weight:lighter;
+    text-align: center;
+}

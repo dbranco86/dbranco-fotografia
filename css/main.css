@@ -6,6 +6,12 @@
   border: 2px solid gray;
   border-radius: 3px; }
 
+#mainPrimario .h1_index {
+  color: #343232;
+  font-family: "Playfair Display", serif;
+  font-weight: lighter;
+  text-align: center; }
+
 .titulo-md {
   font-size: 25px; }
 
@@ -214,11 +220,7 @@ header {
   height: auto;
   padding-bottom: 3%;
   background-image: linear-gradient(#f4f4f4, white); }
-  #mainPrimario h1 {
-    color: #343232;
-    font-family: "Playfair Display", serif;
-    font-weight: lighter;
-    text-align: center;
+  #mainPrimario .h1_index {
     padding: 15px;
     margin: 5% 0% 5% 0%; }
   @media (max-width: 576px) {
@@ -457,7 +459,8 @@ footer {
 .mainPrimario__carrusel {
   width: 60%;
   height: auto;
-  padding: 1%; }
+  padding: 1%;
+  margin-bottom: 3%; }
 
 .mainPrimario__descripcion {
   width: 35%;

@@ -8,15 +8,17 @@
     height: auto;
     padding-bottom: 3%;
     background-image: $color-secundario;
-    h1{
-        color: #343232;
-        font-family: $tipografia-general;
-        font-weight:lighter;
-        text-align: center;
+    //h1{
+      //  @extend %h1;
+        //padding: 15px;
+        //margin: 5% 0% 5% 0%;
+    //}
+    .h1_index{
+        @extend %h1;
         padding: 15px;
         margin: 5% 0% 5% 0%;
     }
-        @media (max-width:576px){
+    @media (max-width:576px){
         //***Q&A***/
         h1{
             font-size: 30px;
