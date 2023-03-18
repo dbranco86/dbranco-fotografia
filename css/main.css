@@ -223,6 +223,9 @@ header {
   #mainPrimario .h1_index {
     padding: 15px;
     margin: 5% 0% 5% 0%; }
+  #mainPrimario .mainPrimario__imagen {
+    width: 100%;
+    border-radius: 10px; }
   @media (max-width: 576px) {
     #mainPrimario h1 {
       font-size: 30px;
@@ -431,7 +434,8 @@ footer {
   width: 15%;
   padding: 1%; }
   .sesion__carrusel-imagen img {
-    width: 100%; }
+    width: 100%;
+    border-radius: 5px; }
 
 .sesiones__boton {
   border: 2px solid gray;
@@ -454,9 +458,6 @@ footer {
 .carousel {
   width: 100%; }
 
-.mainPrimario__imagen {
-  width: 100%; }
-
 .mainPrimario__carrusel {
   width: 60%;
   height: auto;
@@ -474,6 +475,9 @@ footer {
     text-align: center;
     padding: 1%;
     margin-top: 5%; }
+
+.carousel-inner {
+  border-radius: 10px; }
 
 .mainPrimario__titulo {
   width: auto;

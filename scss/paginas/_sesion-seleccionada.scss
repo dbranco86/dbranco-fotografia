@@ -1,7 +1,4 @@
 //Estilos utilizados para páginas Sesión-seleccionada
-.mainPrimario__imagen{
-    width: 100%;
-}
 .mainPrimario__carrusel{
     width:$size-carrusel;
     height: auto;
@@ -20,5 +17,8 @@
         padding: 1%;
         margin-top: 5%;
     }
+}
+.carousel-inner {
+    border-radius: 10px;
 }
 
