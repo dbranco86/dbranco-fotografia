@@ -419,6 +419,9 @@ footer {
   .sesion__imagen img {
     width: 100%;
     border-radius: 10px 70px 10px 70px; }
+  @media (max-width: 576px) {
+    .sesion__imagen {
+      width: 85%; } }
 
 .sesion__carrusel {
   display: flex;

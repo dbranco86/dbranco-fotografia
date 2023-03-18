@@ -48,6 +48,9 @@
     img{
         @include imagenes (100%, 10px 70px 10px 70px);
     }
+    @media (max-width:576px){
+        width: 85%;
+    }
 }
 .sesion__carrusel{
     display: flex;
