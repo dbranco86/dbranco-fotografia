@@ -456,7 +456,8 @@ footer {
     text-decoration: none; }
 
 .carousel {
-  width: 100%; }
+  width: 100%;
+  border-radius: 10px; }
 
 .mainPrimario__carrusel {
   width: 60%;
