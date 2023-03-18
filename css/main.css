@@ -224,8 +224,7 @@ header {
     padding: 15px;
     margin: 5% 0% 5% 0%; }
   #mainPrimario .mainPrimario__imagen {
-    width: 100%;
-    border-radius: 10px; }
+    width: 100%; }
   @media (max-width: 576px) {
     #mainPrimario h1 {
       font-size: 30px;
@@ -475,9 +474,6 @@ footer {
     text-align: center;
     padding: 1%;
     margin-top: 5%; }
-
-.carousel-inner {
-  border-radius: 10px; }
 
 .mainPrimario__titulo {
   width: auto;
